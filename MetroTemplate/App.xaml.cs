@@ -9,7 +9,6 @@ namespace Gridex
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MjYzMDc5QDMxMzgyZTMxMmUzMGJzTytocEN3NGNuNlVzaTdrcnRNR0hzL2xlakdPY1VnYUZMalRpUVc0aDQ9");
             MainWindow wnd = new MainWindow(e.Args);
             wnd.Show();
         }
